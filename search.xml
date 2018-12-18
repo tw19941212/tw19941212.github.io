@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2Fposts%2F4a17b156%2F</url>
+    <content type="text"><![CDATA[耗费时间俩天,终于把博客给搭建起来了.作为一个什么都不懂的机械狗,这个过程无比是痛苦的.遇到任何问题都是Google,广大网友的力量是强大的.前端的都厉害,界面挺美观.这里记录了搭建过程中所有参考的文章,让其他想搭建博客的小白不用繁琐的Google了,^_^为什么搭建个人博客emmm.之前就看到别人博客高端大气上档次,总想着自己也要弄一个,又觉得太麻烦.这里给我以后文章提几点:精髓短小坚持尽量短Over!人生苦短,开心最重要庄子参考链接HexoNexT 主题文档Hexo 官方文档搭建博客Hexo 博客搭建笔记Hexo+Github 博客搭建小白教程Hexo + NexT 站点配置与主题配置七牛云图床设置基本配置hexo-qiniu-sync 插件algolia 搜索设置基本配置Hexo+algolia 搜索不成功解决之前文章假如删除了更新index好像只能手动官网删除其他Hexo Next主题添加版权信息自定义Hexo博客文章模板编写和发布草稿hexo 摸爬滚打之进阶教程(博客压缩,链接唯一)Hexo有趣功能盘点主题优化Hexo优化自定义功能Hexo主题底部的版权声明问题新增阅读排行页面首页分页和归档分页不同首页文章,只显示标题next主题设置首页显示预览首页文章间距过宽Mist主题居中]]></content>
+      <categories>
+        <category>其他</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>NexT</tag>
+      </tags>
+  </entry>
+</search>
