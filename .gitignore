@@ -1,0 +1,6 @@
+static/
+public/
+*.log
+.deploy*/
+/.deploy_git
+/public
