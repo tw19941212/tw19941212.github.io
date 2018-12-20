@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[test]]></title>
-    <url>%2Fposts%2Fd87f7e0c%2F</url>
-    <content type="text"><![CDATA[doafjasdhgjafsgjafgjafhgafasfgafgfasga啊算法嘎对方个阿发嘎发的咖非嘎嘎的风格阿发嘎东方嘎地方嘎的规范阿发的嘎东方嘎对方发翻翻翻翻翻翻翻翻翻翻翻翻翻翻翻翻翻翻发嘎发嘎大夫阿发的嘎的嘎的风格啊东方嘎东方嘎大夫个啊东方嘎大夫嘎大夫个地方嘎的发嘎大夫嘎大夫参考链接类别1类别2]]></content>
-      <categories>
-        <category>其他</category>
-      </categories>
-  </entry>
-  <entry>
     <title><![CDATA[结构化机器学习项目]]></title>
     <url>%2Fposts%2F563918f4%2F</url>
     <content type="text"><![CDATA[deeplearning.ai的第三课:Structuring Machine Learning Projects.讲解了如何从误差角度分析改善模型,如何划分训练验证测试集,设定优化目标,偏差方差分析,数据不匹配问题,迁移学习和多任务学习,端到端学习的优缺点.机器学习(ML)策略(1)Introduction to ML StrategyChain of assumptions in ML(Orthogonalization正交化):训练集上表现好?(可加大网络结构或用更好优化算法)验证集上表现好?(正则化或加大训练集)测试集上表现好?(加大验证集)真实数据上表现好?(验证集设置不正确或损失函数不正确)Setting up your goal单一数字评估指标 (方便比较算法优劣)满足(Satisficing)的指标的优化(optimizing)的指标选择验证/测试集分布反映未来真实数据或期望优化的数据验证/测试集划分大小测试集大小需能反映系统性能,具有高置信度验证集需足够大以评估不同方法training setdevelopment settest set98%1%1%何时改变验证/测试集大小和评价指标在真实应用中表现不好的时候定义正确的评价指标能更好评估不同分类器优化评估指标Comparing to human-level performance为什么是人类水平?(若分类器比人类表现差该怎么办)获得更多标注的数据从人工错误分析:为什么人能分类正确?更好的偏差/方差分析理解人类表现人工分类误差是贝页斯误差近似提高模型表现技巧机器学习(ML)策略(2)Error Analysis误差分析:人工分析错误来源,统计不同错误类型占总数百分比,优先解决错误率最大深度学习算法对训练集随机误差(偶尔标记错误)具有鲁棒性,对系统误差(一直标记错误)无鲁棒性.验证集标记错误若严重影响评估算法能力,则需修正.验证集目标是帮助选择算法A &amp; B.对验证/测试集相同处理确保来自同一分布.考虑检查算法分类正确的样本是否标记错误而不仅是分类错误样本是否标记错误.训练集和验证/测试集或许来自稍微不同的分布.(这不会有太大影响)基本准则: 快速建立第一个系统,然后迭代优化.Mismatched training and dev/test set在不同划分(使dev和test来自同一分布)上训练和测试数据不匹配问题:Bayes optimal errortraining errortraining-dev errordev errormain problem0%1%9%10%variance0%11.5%10%data mismatch0%10%11%12%bias0%10%11%20%bias and data mismatch解决数据不匹配问题:收集更多像验证集的数据,或人工合成数据,但要避免从所有可能性的空间中只选了一小部分去模拟数据,造成过拟合人工合成的数据Learning from multiple tasks迁移学习起作用当任务A和任务B有相同的输入x(like image)任务A有大量数据可供学习对比任务B从A学习的低级别特征可能对B有帮助.多任务学习起作用当:在一系列任务上训练能从共享的低级别特征上收益时通常:对每一任务的数据量是近似相同的能训练足够大网络以至于能在所有任务上表现好End-to-end deep learning优点:让数据自学习不依赖手工特征,组件缺点:需要大量数据排除潜在有用手工特征,组件应用端到端深度学习关键问题: 你有足够的数据去学习从x映射到y的复杂性吗?参考链接网易云课堂Coursera Deep Learning 专项课程作业]]></content>
