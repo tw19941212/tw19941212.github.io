@@ -167,7 +167,7 @@ links_layout: block
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-avatar: http://pjvkppqit.bkt.clouddn.com/static/images/avatar.jpeg
+avatar: /uploads/images/avatar.jpeg
 
 # Table Of Contents in the Sidebar
 toc:
@@ -546,8 +546,8 @@ rating:
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
   enable: true
-  app_id:  #<app_id>
-  app_key: #<app_key>
+  app_id: mW6MTVtJX0wR4pitdPFEST98-gzGzoHsz #<app_id>
+  app_key: hH4sKpU65t4ptsnIyX0z34l6 #<app_key>
 
 # Another tool to show number of visitors to each article.
 # visit https://console.firebase.google.com/u/0/ to get apiKey and projectId
@@ -563,13 +563,13 @@ firestore:
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
   # count values only if the other configs are false
-  enable: True
+  enable: false
   # custom uv span for the whole site
-  site_uv: true
+  site_uv: false
   site_uv_header: 本站访客数 <i class="fa fa-user"></i>
   site_uv_footer: 人次
   # custom pv span for the whole site
-  site_pv: true
+  site_pv: false
   site_pv_header: 本站总访问量 <i class="fa fa-eye"></i>
   site_pv_footer: 次
   # custom pv span for one page only

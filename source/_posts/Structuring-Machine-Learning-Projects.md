@@ -1,14 +1,17 @@
 ---
 title: 结构化机器学习项目
 categories:
-  - 其他
+  - 深度学习
 mathjax: false
 comments: true
 abbrlink: 563918f4
 date: 2018-12-20 16:58:52
 tags:
-description:
+- Coursera
+- 深度学习
+- 机器学习
 ---
+
 deeplearning.ai的第三课:Structuring Machine Learning Projects.讲解了如何从误差角度分析改善模型,如何划分训练验证测试集,设定优化目标,偏差方差分析,数据不匹配问题,迁移学习和多任务学习,端到端学习的优缺点.
 <!-- more -->
 
@@ -19,7 +22,10 @@ Chain of assumptions in ML(Orthogonalization正交化):
 2. 验证集上表现好?(正则化或加大训练集)
 3. 测试集上表现好?(加大验证集)
 4. 真实数据上表现好?(验证集设置不正确或损失函数不正确)
-{% qnimg 'Chain of assumptions in ML.png' title:'Chain of assumptions in ML' alt:'hello world' 'class:class1 class2' extend:?imageView2/2/w/600 %}
+
+<center>
+    <img src="/uploads/images/Chain of assumptions in ML.png" width="600" title = 'Chain of assumptions in ML'>
+</center>
 
 ### Setting up your goal
 1. 单一数字评估指标 (方便比较算法优劣)
@@ -46,7 +52,10 @@ Chain of assumptions in ML(Orthogonalization正交化):
 2. 理解人类表现
 	* 人工分类误差是贝页斯误差近似
 3. 提高模型表现技巧
-{% qnimg 'Improving your model performance.png' title:'Improving your model performance' %}
+
+<center>
+    <img src="/uploads/images/Improving your model performance.png" title='Improving your model performance' width="600">
+</center>
 
 ## 机器学习(ML)策略(2)
 ### Error Analysis
@@ -75,9 +84,12 @@ Chain of assumptions in ML(Orthogonalization正交化):
 |0%|10%|11%|12%|bias|
 |0%|10%|11%|20%|bias and data mismatch|
 
-{% qnimg 'Bias variance on mismatched training and dev test sets.png' title:'Bias/variance on mismatched training and dev/test sets' alt:'hello world' 'class:class1 class2' extend:?imageView2/2/w/600 %}
+<center>
+    <img src="/uploads/images/Bias variance on mismatched training and dev test sets.png" width="600" title='Bias/variance on mismatched training and dev/test sets'>
+</center>
 
-3. 解决数据不匹配问题:收集更多像验证集的数据,或人工合成数据,但要避免从所有可能性的空间中只选了一小部分去模拟数据,造成过拟合人工合成的数据
+
+1. 解决数据不匹配问题:收集更多像验证集的数据,或人工合成数据,但要避免从所有可能性的空间中只选了一小部分去模拟数据,造成过拟合人工合成的数据
 
 ### Learning from multiple tasks
 
@@ -110,4 +122,4 @@ Chain of assumptions in ML(Orthogonalization正交化):
 ## 参考链接
 * [网易云课堂](https://mooc.study.163.com/course/2001280004#/info) 
 * [Coursera Deep Learning 专项课程](https://www.coursera.org/specializations/deep-learning) 
-* [作业](https://github.com/tw19941212/Course) 
+* [吴恩达《深度学习》系列课程笔记](https://github.com/bighuang624/Andrew-Ng-Deep-Learning-notes/blob/master/docs/README.md) 

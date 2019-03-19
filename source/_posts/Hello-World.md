@@ -8,8 +8,8 @@ categories:
   - 其他
 abbrlink: 4a17b156
 date: 2018-12-17 10:54:33
-description:
 ---
+
 耗费时间俩天,终于把博客给搭建起来了.作为一个什么都不懂的机械狗,这个过程无比是痛苦的.遇到任何问题都是Google,广大网友的力量是强大的.前端的都厉害,界面挺美观.这里记录了搭建过程中所有参考的文章,让其他想搭建博客的小白不用繁琐的Google了,^_^
 
 <!-- more -->
@@ -50,8 +50,9 @@ Over!
 ### algolia 搜索设置
 * [基本配置](https://juejin.im/post/5af3f9d1518825673e35a6eb) 
 * [Hexo+algolia 搜索不成功解决](https://arstead.github.io/%E6%8A%80%E6%9C%AF/Hexo/How_to_add_algolia_into_hexo/) 
+* [algolia搜索添加content](https://github.com/iissnan/hexo-theme-next/issues/1084) 
 
-之前文章假如删除了更新index好像只能手动官网删除
+之前文章假如删除了更新index好像只能手动官网删除.改正:hexo a --flush
 
 ### 其他
 * [Hexo Next主题添加版权信息](http://smartsi.club/hexo-next-add-copyright-information.html) 
@@ -70,3 +71,4 @@ Over!
 * [next主题设置首页显示预览](https://www.jianshu.com/p/393d067dba8d) 
 * [首页文章间距过宽](https://blog.csdn.net/weixin_42024255/article/details/82814433) 
 * [Mist主题居中](https://anduinwrynn.github.io/2018/02/14/GitHub-Hexo-NexT%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%8F%8A%E4%BC%98%E5%8C%96/) 
+* [Github Pages百度索引收录](https://3gods.com/webmaster/Github-Pages-Baidu-Index-Nginx.html#sec-1-2) 

@@ -1,6 +1,9 @@
 static/
 public/
+source/uploads/
 *.log
 .deploy*/
 /.deploy_git
 /public
+db.json
+

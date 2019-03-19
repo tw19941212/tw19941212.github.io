@@ -90,9 +90,9 @@ deploy:
 #  format: html
 #  limit: 10000
 algolia:
-  applicationID: Z4365CW4O5
-  apiKey:  # 替换自己的apikey
-  indexName: blog
+  applicationID: J76SICERAJ
+  apiKey: aa3d23c59fcc559b945fee40365c2f6f # 替换自己的apikey
+  indexName: github_blog
   chunkSize: 5000
 
 # hexo-neat
@@ -181,21 +181,25 @@ tag_generator:
 #plugins:
 # - hexo-qiniu-sync
 
-qiniu:
-  offline: false
-  sync: true
-  bucket: github-blog
-  access_key:  #替换自己的 access_key
-  secret_key:  #替换自己的 secret_key
-  dirPrefix: static
-  urlPrefix: http://pjvkppqit.bkt.clouddn.com/static
-  up_host: http://upload.qiniu.com
-  local_dir: static
-  update_exist: true
-  image: 
-    folder: images
-    extend: 
-  js:
-    folder: js
-  css:
-    folder: css
+# qiniu:
+#   offline: false
+#   sync: true
+#   bucket: github-blog
+#   access_key:  #替换自己的 access_key
+#   secret_key:  #替换自己的 secret_key
+#   dirPrefix: static
+#   urlPrefix: http://pjvkppqit.bkt.clouddn.com/static
+#   up_host: http://upload.qiniu.com
+#   local_dir: static
+#   update_exist: true
+#   image: 
+#     folder: images
+#     extend: 
+#   js:
+#     folder: js
+#   css:
+#     folder: css
+
+#google search
+sitemap:
+    path: sitemap.xml
